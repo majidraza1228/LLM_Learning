@@ -1,3 +1,17 @@
+conda create -n ag python=3.11 -y && conda activate ag
+
+pip install torch 
+pip install git+https://github.com/huggingface/transformers
+pip install git+https://github.com/huggingface/accelerate
+pip install huggingface_hub
+
+===================================================================================================================
+
+pip install sentencepiece
+pip install bitsandbytes
+
+
+
 pip install torch
 pip install -U transformers sentencepiece accelerate sentence transformers
 pip install protobuf
