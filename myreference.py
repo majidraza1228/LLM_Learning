@@ -1,3 +1,18 @@
+################################################################################
+# INSTALL CONDA ON GOOGLE COLAB
+################################################################################
+! wget https://repo.anaconda.com/miniconda/Miniconda3-py37_4.8.2-Linux-x86_64.sh
+! chmod +x Miniconda3-py37_4.8.2-Linux-x86_64.sh
+! bash ./Miniconda3-py37_4.8.2-Linux-x86_64.sh -b -f -p /usr/local
+import sys
+sys.path.append('/usr/local/lib/python3.7/site-packages/')
+
+
+#############################################################################################################################
+
+
+
+
 conda create -n ag python=3.11 -y && conda activate ag
 
 pip install torch 
