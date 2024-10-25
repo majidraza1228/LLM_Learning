@@ -9,6 +9,8 @@ sys.path.append('/usr/local/lib/python3.7/site-packages/')
 
 
 #############################################################################################################################
+from google.colab import drive
+drive.mount('/content/drive')
 
 
 
