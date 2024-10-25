@@ -13,6 +13,31 @@ from google.colab import drive
 drive.mount('/content/drive')
 
 
+#################################################
+Ollama integration with Google Colab
+In your Google Colab notebook, install the necessary Python packages.
+
+Load the xterm extension to use a terminal within a Colab notebook.
+
+Open the terminal inside the Colab cell by running:
+
+%xterm
+
+nside the xterm terminal (opened within the Colab cell):
+
+Type the following command to install Ollama:
+
+curl -fsSL https://ollama.com/install.sh | sh
+
+Type the following command to install Ollama:
+
+ollama serve & ollama run llama3
+
+
+
+###########################
+
+
 
 
 conda create -n ag python=3.11 -y && conda activate ag
